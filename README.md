@@ -34,3 +34,7 @@ What forms of governance, siting, investment, and public accountability are requ
 ## Relationship To Fieldlight
 
 This pillar sits beside the consciousness research program. Together, they ask how AI systems reshape both the material world that supports intelligence and the human world transformed by it.
+
+## Copyright And Use
+
+This repository is public for reading and citation, but it is not open-licensed by default. See [Copyright And Use](COPYRIGHT.md).
