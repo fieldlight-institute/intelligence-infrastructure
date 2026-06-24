@@ -1,152 +1,221 @@
 # Sovereign Personal Computing Stack
 
-Status: Architecture note 0.1  
-Created: June 2026
+Status: Architecture note 0.2  
+Created: June 2026  
+Updated: June 2026
 
-Fieldlight treats personal computing as infrastructure that should be owned by the person.
+Fieldlight is designing a sovereign computing architecture from silicon to society.
 
-The work is not to build another application, SaaS product, or mesh tool. The work is to define a coherent stack in which hardware, operating system, identity, memory, agents, communication, publication, and archive share one governing philosophy.
+The goal is not to build a Linux distribution, a laptop company, or an AI assistant. The goal is to define and build a successor architecture to personal computing: a human-owned system where authority originates with the person and is delegated outward.
 
-Short form:
+The laptop is the first embodiment, not the category.
 
-> Mac-level coherence. Linux-level ownership. Human-level consent.
+## Core Architecture
 
-## Core Claim
+The Fieldlight stack includes:
 
-The personal computer is becoming the site where AI systems touch memory, authorship, identity, attention, work, relationships, and public life.
+1. Silicon
+2. Hardware
+3. Firmware
+4. Operating system
+5. Identity
+6. Sanctum
+7. Agents
+8. Mesh
+9. Authorship
+10. Governance
+11. Public space
+12. Archive
+13. Society
 
-That makes the machine a governance surface.
+The stack is unified by one authority model.
 
-A Fieldlight-native system should not treat the person as an account inside a platform. It should treat the person as the owner of the machine, the memory substrate, the identity layer, and the authority grants by which agents act.
+The machine should understand:
 
-## Stack Layers
+- who it belongs to
+- what it knows
+- how it knows it
+- what it is permitted to do
+- who delegated that permission
+- what left the machine
+- what was remembered
+- what was published
+- how to explain itself
+
+## Layer Responsibilities
+
+### Silicon
+
+Silicon defines the physical limits of local intelligence: model execution, memory bandwidth, secure computation, isolation, energy use, and embodied trust.
+
+Architecture questions:
+
+- What must run locally?
+- What must be accelerated locally?
+- What identity or key material requires hardware support?
+- What forms of isolation must be physically enforced?
+- What local inference envelope is required for ordinary use?
 
 ### Hardware
 
-The physical trust boundary.
+Hardware makes trust physical.
 
-Hardware defines what can be sensed, stored, accelerated, repaired, replaced, secured, and disconnected.
+Architecture questions:
 
-Questions:
-
-- What sensors exist?
-- What secure hardware exists?
+- What can be sensed?
 - What can be physically disabled?
 - What can be repaired?
-- What remains usable without cloud services?
-- What compute is available locally?
+- What compute, memory, and storage are needed for the whole loop?
+- What battery, thermals, keyboard, display, camera, microphone, and speaker quality make this usable for normal people?
+- What must remain functional without cloud services?
+
+### Firmware
+
+Firmware is the first authority boundary after power-on.
+
+Architecture questions:
+
+- What is allowed to boot?
+- How is boot integrity verified?
+- How are recovery and replacement handled?
+- How does the system distinguish trusted, degraded, and compromised states?
 
 ### Operating System
 
-The enforcement layer.
+The Fieldlight OS is the enforcement and explanation layer.
 
-The OS decides what can run, see, remember, change, share, publish, sync, and leave the machine.
+Architecture questions:
 
-Questions:
-
-- What is local by default?
-- What is network-visible by default?
-- What requires explicit consent?
-- How are agent capabilities granted and revoked?
-- How are memory, identity, and provenance exposed to applications?
+- What can run?
+- What can see?
+- What can remember?
+- What can change?
+- What can leave?
+- What requires consent?
+- What authority grant permits an action?
+- What audit record remains?
 
 ### Identity
 
-The continuity layer.
+Identity defines belonging and continuity.
 
-Identity is not merely login. It is the durable link between person, devices, keys, memory, authority, authorship, recovery, and archive.
+Architecture questions:
 
-Questions:
-
-- Where do keys live?
-- How is a device trusted?
-- How does identity survive device replacement?
-- How is recovery possible without surrendering custody?
-- How are human, device, and agent identities distinguished?
+- Who does this machine belong to?
+- How are person, device, agent, collaborator, service, and institution identities distinguished?
+- How does identity survive hardware replacement?
+- How does recovery work without surrendering custody?
 
 ### Sanctum
 
-The memory and authorship substrate.
+Sanctum is continuity, identity, memory, and agency.
 
-Sanctum is not only an app. In the Fieldlight stack, Sanctum becomes part of the operating substrate: the place where private memory, source trace, authorship, consent states, personal continuity, and agent context are governed.
+Architecture questions:
 
-Questions:
-
-- What belongs to private memory?
-- What memory can an agent access?
-- What memory is shared?
-- What memory is model-visible?
-- What memory can be forgotten, sealed, exported, or archived?
+- What belongs to the person's private continuity?
+- What memory may agents use?
+- What is source, memory, inference, preference, artifact, or archive?
+- How are consent state and provenance preserved?
+- How does a person inspect, seal, export, forget, or inherit memory?
 
 ### Agents
 
-The delegated action layer.
+Agents are delegated actors.
 
-Agents act through scoped authority. They should not inherit ambient power from apps, accounts, or sessions.
+Architecture questions:
 
-Questions:
-
-- What grant authorizes this action?
-- What can the agent read?
-- What can the agent write?
-- What can the agent send?
-- What can the agent buy, execute, publish, delete, or remember?
-- What record remains after action?
+- What grant authorizes the action?
+- What can the agent read, write, remember, send, buy, publish, execute, or delete?
+- When does the grant expire?
+- What explanation does the agent owe?
 
 ### Mesh
 
-The communication and collaboration layer.
+Mesh is inter-node communication and delegation.
 
-Mesh governs shared presence, private channels, collaboration, sync, and movement between personal nodes.
+Architecture questions:
 
-Questions:
+- Which nodes trust each other?
+- What is shared peer-to-peer?
+- What requires relay infrastructure?
+- What can be delegated across nodes?
+- How are presence, collaboration, refusal, revocation, and trace handled?
 
-- Who can see what?
-- What is shared with whom?
-- What moves peer-to-peer?
-- What requires a relay?
-- What remains private even during collaboration?
+### Authorship
 
-### Town Square
+Authorship preserves origin and rights.
 
-The public expression layer.
+Architecture questions:
 
-Town Square is the intentionally public surface. It distinguishes publication from leakage and public authorship from platform capture.
+- Who made this?
+- From what source?
+- With what contribution history?
+- Under what permission?
+- What is public, cited, mirrored, remixed, licensed, or withdrawn?
 
-Questions:
+### Governance
+
+Governance makes power legible.
+
+Architecture questions:
+
+- Who can grant authority?
+- Who can revoke authority?
+- What happens when grants conflict?
+- How are disputes, refusals, errors, and harms recorded?
+- How does the machine participate in institutional and civic governance without surrendering human authority?
+
+### Public Space
+
+Public space is intentional visibility.
+
+Architecture questions:
 
 - What has been intentionally published?
-- What trace and licensing follow it?
-- What relationship exists between a public artifact and its private source?
-- What can be cited, mirrored, remixed, or withdrawn?
+- What remains private behind the public artifact?
+- How is public authorship preserved?
+- How does the system resist platform capture?
 
 ### Archive
 
-The continuity over time layer.
+Archive is continuity over time.
 
-Archive governs durable records, migration, inheritance, institutional memory, and long-term preservation.
+Architecture questions:
 
-Questions:
-
-- What survives hardware replacement?
+- What survives device replacement?
 - What survives account loss?
 - What survives institutional failure?
-- What should be portable?
-- What should be sealed?
 - What should be inherited?
+- What should be sealed?
+- What should remain readable decades later?
 
-## Design Principle
+### Society
 
-Every layer should preserve the difference between:
+Society is not an afterthought.
+
+Architecture questions:
+
+- What social order does this trust stack produce?
+- Who gains power?
+- Who loses extraction rights?
+- What institutions become possible when machines are accountable to humans first?
+
+## Design Rule
+
+If the machine cannot distinguish a state, it cannot govern that state.
+
+The system must distinguish:
 
 - local
 - private
 - shared
 - synced
+- delegated
 - agent-visible
 - model-visible
+- institution-visible
 - published
 - archived
-
-If the system cannot name the difference, it cannot govern the difference.
+- inherited
+- revoked
 
