@@ -1,12 +1,13 @@
 # Intelligence Infrastructure
 
-This repository is the Fieldlight Institute research program on the physical, economic, and political substrate of AI systems.
+This repository is the Fieldlight Institute research program on the physical, economic, political, and personal substrate of AI systems.
 
 ## Scope
 
-The program studies the systems that make advanced AI possible:
+The program studies the systems that make advanced AI possible and governable:
 
 - compute
+- silicon
 - data centers
 - energy
 - water
@@ -16,11 +17,20 @@ The program studies the systems that make advanced AI possible:
 - capital
 - deployment
 - sovereignty
-- personal and local AI infrastructure
+- human-owned computing
+- local and personal AI infrastructure
 
 ## Central Question
 
-What forms of governance, siting, investment, and public accountability are required when intelligence becomes infrastructure?
+What forms of architecture, governance, siting, investment, and public accountability are required when intelligence becomes infrastructure?
+
+## Key Output Priority
+
+Sovereign personal computing is a key Fieldlight Institute output priority.
+
+Fieldlight is designing a sovereign computing architecture from silicon to society. The laptop is the first embodiment, not the category.
+
+The objective is a new category of human-owned computing where authority originates with the human and is delegated outward rather than extracted upward.
 
 ## Working Areas
 
@@ -32,6 +42,7 @@ What forms of governance, siting, investment, and public accountability are requ
 - National strategy and public-private coordination
 - Infrastructure as geopolitical power
 - Sovereign personal computing
+- Fieldlight machine architecture
 - Local-first and edge AI systems
 
 ## Architecture
@@ -45,7 +56,7 @@ What forms of governance, siting, investment, and public accountability are requ
 
 This pillar sits beside the consciousness research program. Together, they ask how AI systems reshape both the material world that supports intelligence and the human world transformed by it.
 
-The sovereign personal computing work connects those pillars at the scale of the person: hardware, operating system, identity, memory, agents, communication, public expression, and archive.
+The sovereign personal computing work connects those pillars at the scale of the person and beyond: silicon, hardware, operating system, identity, memory, agents, communication, authorship, governance, public space, archive, and society.
 
 ## Copyright And Use
 
