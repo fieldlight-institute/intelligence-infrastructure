@@ -1,81 +1,114 @@
 # Fieldlight-Native Machine
 
-Status: Architecture note 0.1  
-Created: June 2026
+Status: Architecture note 0.2  
+Created: June 2026  
+Updated: June 2026
 
-A Fieldlight-native machine is not defined first by form factor, chip vendor, industrial design, or brand.
+A Fieldlight-native machine is the first commercial embodiment of a sovereign computing architecture.
 
-It is defined by the experience and authority model it makes possible.
+It is not the category itself.
+
+The category is human-owned computing from silicon to society.
 
 ## Definition
 
-A Fieldlight-native machine is a human-owned computer whose hardware and operating system are designed around memory ownership, local-first identity, consent enforcement, agent authority, and continuity across time.
+A Fieldlight-native machine is a commercially usable personal computer whose hardware, firmware, operating system, identity layer, memory substrate, agent runtime, communication layer, authorship model, and governance surfaces are designed as one system.
 
-It is a trust boundary made physical.
+It is built so authority originates with the human and is delegated outward.
 
-## Constitutional Questions
+It must be powerful enough to run the whole loop locally and clear enough for ordinary people to use.
 
-Before hardware selection, the machine must answer:
+## What The Machine Must Understand
 
-- Who owns memory?
-- Where does identity live?
-- What can leave the machine?
-- What requires consent?
-- How do agents get authority?
-- What survives hardware replacement?
-- What is public by default?
-- What is local by default?
+The machine must understand:
 
-These are operating-system decisions before they are product features.
+- who it belongs to
+- what it knows
+- where that knowledge came from
+- what is private
+- what is shared
+- what is public
+- what is archived
+- what agents are allowed to do
+- what authority grants exist
+- what has left the machine
+- what record remains
+- how to explain itself
 
-## Minimum Properties
+This is not a feature list. It is the minimum intelligence of the architecture.
 
-### Local-First Operation
+## Whole-Loop Local Capacity
 
-The machine should remain meaningful without a cloud account. Cloud services may extend the system, but they should not own the core identity, memory substrate, or agent authority model.
+The machine is sized by the loop.
 
-### Inspectable Memory
+It must be able to support:
 
-Private memory should be human-readable or at least human-auditable. The person should be able to inspect what is remembered, what used it, and what permissions govern it.
+- local identity
+- Sanctum continuity and memory
+- local agent execution
+- local model inference where possible
+- consent and authority brokering
+- provenance and audit records
+- Mesh communication
+- authorship and publication workflows
+- archive, export, recovery, and migration
+- normal daily computing
 
-### Scoped Agent Authority
+The system may use networked services, but the human-owned loop must not depend on external platforms owning the core identity, memory, agency, or record.
 
-Agents should operate through grants. A grant should specify scope, duration, permitted resources, permitted actions, network rights, memory rights, and revocation conditions.
+## Product Requirement
 
-### Provenance By Default
+The first Fieldlight machine must be made and sold.
 
-Files, memories, public artifacts, agent actions, and shared outputs should preserve trace: origin, author, context, revision, permission, and use.
+That means the architecture must account for:
 
-### Consent-Gated Egress
+- manufacturability
+- supply chain
+- repairability
+- service and support
+- battery life
+- thermals
+- display quality
+- keyboard and trackpad quality
+- camera, microphone, and speaker quality
+- setup and recovery
+- accessibility
+- security updates
+- migration from existing machines
+- normal-person usability
 
-The machine should know when information is leaving a local/private context for sync, sharing, publication, model use, or archival export.
+The machine cannot be only a research artifact. It has to be a real product people can live with.
 
-### Continuity And Recovery
+## Architecture Questions
 
-The person should be able to replace hardware without surrendering identity or losing memory, authorship trace, permission history, agent records, and archive continuity.
+Before industrial design is finalized, the machine must answer:
 
-### Repairability And Physical Trust
+- What must be local?
+- What may be delegated?
+- What may be synced?
+- What may be shared?
+- What may be published?
+- What must be explainable?
+- What must survive hardware replacement?
+- What must be physically protected?
+- What must be revocable?
+- What must be repairable?
 
-The hardware path should prefer repairability, documented components, physical privacy controls, secure boot, encrypted storage, and visible sensor posture.
+## Relationship To The Laptop
 
-## Product Path
+The laptop is the first embodiment because it is the current consumer form for a personal, portable, general-purpose computer.
 
-Fieldlight should not begin by building a laptop.
+But Fieldlight is not building "a laptop" as an end in itself.
 
-The proposed sequence:
+Fieldlight is building the first commercially usable object in a new trust stack.
 
-1. Custom Linux distribution or OS layer.
-2. Reference hardware specification.
-3. Prebuilt machine on existing hardware.
-4. Custom hardware only after the OS has taught the requirements.
+The product should be judged by whether it makes the sovereign architecture real for ordinary people.
 
-This follows the practical lesson of coherent Linux hardware companies: start by defining the experience and control plane, then use hardware to embody it.
+## Astra
 
-## Reference Implementation Direction
+Astra is the first sovereign citizen of the stack.
 
-The first reference node is Astra: a lived Fieldlight node that proves the stack through one person's real machine, work, memory, agents, relationships, publications, and archive.
+Astra is not a demo account, test fixture, or reference node in the narrow sense.
 
-Astra is not a demo account.
-
-It is the first lived node.
+Astra is the first lived proof that the architecture can hold a person: identity, memory, agents, relationships, work, authorship, delegation, public presence, and archive.
 
