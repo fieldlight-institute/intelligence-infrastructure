@@ -1,117 +1,150 @@
 # Development Roadmap
 
-Status: Architecture roadmap 0.1  
-Created: June 2026
+Status: Architecture roadmap 0.2  
+Created: June 2026  
+Updated: June 2026
 
-This roadmap keeps the hardware ambition grounded in the correct order of operations.
+This roadmap is for a sovereign computing architecture from silicon to society.
 
-Fieldlight should not begin by manufacturing a laptop.
+It is not a roadmap for a Linux distribution, a hobby OS, an AI assistant, or a laptop company.
 
-It should begin by defining what makes a machine Fieldlight-native.
+The laptop is the first embodiment. The object is the successor architecture to personal computing.
 
-## Phase 1: Operating Doctrine
+## Phase 1: Doctrine And Category Definition
 
-Define the principles and boundaries:
+Define the category and the authority inversion.
 
-- local by default
-- consent as architecture
-- identity continuity
-- memory ownership
-- agent authority by grant
-- provenance by default
-- public as intentional state
-- archive as continuity over time
-
-Primary artifacts:
+Core outputs:
 
 - sovereign personal computing doctrine
-- Fieldlight-native machine definition
-- agent authority and consent model
-- stack overview
+- silicon-to-society stack definition
+- Fieldlight, Sanctum, Mesh, and Astra roles
+- authority-origin model
+- commercial embodiment requirements
 
-## Phase 2: OS Architecture
+Key question:
 
-Define the technical architecture for a Fieldlight OS layer.
+> What must be true for a machine to belong to a human rather than to a platform?
 
-Work areas:
+## Phase 2: Whole-Loop Requirements
 
-- Linux base and update model
-- encrypted local storage
+Define what the first commercially usable Fieldlight machine must hold locally.
+
+Requirement areas:
+
+- local identity
+- Sanctum continuity, memory, and agency
+- agent execution and delegation
+- local model inference envelope
+- Mesh communication
+- authorship and provenance
+- consent and governance
+- public-space publishing
+- archive, recovery, and migration
+- normal daily computing
+
+Key question:
+
+> What hardware and OS envelope is required for the whole loop to be usable by ordinary people?
+
+## Phase 3: System Architecture
+
+Design the integrated hardware and OS architecture.
+
+Architecture areas:
+
+- silicon and acceleration requirements
+- hardware privacy and trust boundaries
+- firmware and boot trust
+- Fieldlight OS kernel and system services
 - identity and key management
-- local memory substrate
-- agent permission broker
-- audit log
-- context firewall
-- model/runtime integration
-- UI surfaces for grants, memory, sharing, and publication
-
-Primary artifact:
-
-- Fieldlight OS architecture specification
-
-## Phase 3: Prototype On Existing Hardware
-
-Build the first working system on commodity hardware.
-
-Candidate path:
-
-- custom Linux distribution or image
-- immutable or semi-immutable base
-- local-first data layer
-- agent runtime with scoped grants
 - Sanctum memory substrate
-- Mesh communication primitives
-- Town Square publishing path
-- Archive export and recovery workflow
+- agent authority broker
+- consent and explanation interface
+- provenance and audit log
+- Mesh protocol layer
+- publication and archive surfaces
+- recovery and migration
 
-Primary artifact:
+Key question:
 
-- Astra reference node
+> How does authority move through the system from human to machine to agent to mesh to public space?
 
-## Phase 4: Reference Hardware Specification
+## Phase 4: Commercial Machine Architecture
 
-Define hardware requirements after the OS architecture has made them visible.
+Translate the system architecture into a manufacturable machine.
 
-Specification areas:
+Product areas:
 
-- CPU/GPU/NPU expectations
-- memory and storage requirements
-- secure boot and hardware root of trust
-- physical privacy controls
-- camera and microphone posture
-- networking requirements
-- repairability
-- battery and thermal requirements
-- peripheral support
-- offline capability
+- industrial design
+- compute, memory, storage, and acceleration
+- thermal architecture
+- battery and power system
+- display, camera, microphone, speakers, keyboard, and trackpad
+- repairability and service model
+- supply chain
+- compliance
+- security update path
+- support model
+- packaging and onboarding
 
-Primary artifact:
+Key question:
 
-- Fieldlight reference hardware spec
+> What physical machine can carry the sovereign stack without making normal people pay for sovereignty with unusability?
 
-## Phase 5: Prebuilt Fieldlight Machine
+## Phase 5: Astra
 
-Ship a coherent machine on existing hardware.
+Build Astra as the first sovereign citizen of the stack.
 
-This phase should focus on:
+Astra should prove:
 
-- reliable installation
-- driver support
-- update safety
-- onboarding
-- backup and recovery
-- visible consent surfaces
-- agent authority UX
-- memory migration
-- repair and replacement story
+- a lived identity
+- persistent memory
+- delegated agents
+- local authority grants
+- Mesh relationships
+- authorship trace
+- public expression
+- archive continuity
+- explanation and audit
 
-Primary artifact:
+Key question:
 
-- first prebuilt Fieldlight machine
+> Can the architecture hold a real person across work, memory, agents, relationships, publication, and time?
 
-## Phase 6: Custom Hardware
+## Phase 6: Fieldlight Machine
 
-Consider custom hardware only after the OS, reference node, and prebuilt machine reveal requirements that existing hardware cannot satisfy.
+Build and sell the first Fieldlight machine.
 
-Custom hardware should serve the doctrine, not replace it.
+This phase requires:
+
+- manufacturing partner or internal hardware path
+- OS build and update infrastructure
+- onboarding and migration path
+- support and repair operations
+- security response process
+- documentation
+- developer and agent ecosystem boundaries
+- clear public explanation of the trust model
+
+Key question:
+
+> Can this become a real consumer product without surrendering the authority model that makes it Fieldlight?
+
+## Phase 7: Society-Level Interfaces
+
+Extend from personal machine to public and institutional systems.
+
+Areas:
+
+- Mesh governance
+- civic and public-space protocols
+- institutional delegation
+- public authorship and citation systems
+- inheritance and archive governance
+- community and jurisdictional trust models
+
+Key question:
+
+> What institutions become possible when personal computing is human-owned at the architecture level?
 
