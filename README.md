@@ -1,8 +1,10 @@
 # Intelligence Infrastructure
 
-This repository is the Fieldlight Institute research program on the physical, economic, political, and personal substrate of AI systems.
+Fieldlight Institute studies intelligence as infrastructure—from silicon to society—with sovereign personal computing as its first physical embodiment. 
 
 ## Scope
+
+This repository is the research program on the physical, economic, political, and personal substrate of AI systems. 
 
 The program studies the systems that make advanced AI possible and governable:
 
