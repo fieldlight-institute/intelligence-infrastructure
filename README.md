@@ -1,10 +1,10 @@
 # Intelligence Infrastructure
 
-Fieldlight Institute studies intelligence as infrastructure—from silicon to society—with sovereign personal computing as its first physical embodiment. 
+Fieldlight Institute studies intelligence as infrastructure-from silicon to society-with sovereign personal computing as its first physical embodiment.
 
 ## Scope
 
-This repository is the research program on the physical, economic, political, and personal substrate of AI systems. 
+This repository is the research program on the physical, economic, political, and personal substrate of AI systems.
 
 The program studies the systems that make advanced AI possible and governable:
 
@@ -21,6 +21,8 @@ The program studies the systems that make advanced AI possible and governable:
 - sovereignty
 - human-owned computing
 - local and personal AI infrastructure
+- local-first edge infrastructure
+- mobile and vehicle-based compute nodes
 
 ## Central Question
 
@@ -46,6 +48,8 @@ The objective is a new category of human-owned computing where authority origina
 - Sovereign personal computing
 - Fieldlight machine architecture
 - Local-first and edge AI systems
+- Vehicle-based sovereign compute
+- Fieldlight Mesh node architecture
 
 ## Architecture
 
@@ -53,6 +57,7 @@ The objective is a new category of human-owned computing where authority origina
 - [Fieldlight-Native Machine](architecture/fieldlight-native-machine.md)
 - [Agent Authority And Consent](architecture/agent-authority-and-consent.md)
 - [Development Roadmap](architecture/roadmap.md)
+- [Fieldlight Mobile Edge Node](MOBILE-EDGE-NODE.md)
 
 ## Relationship To Fieldlight
 
@@ -60,7 +65,8 @@ This pillar sits beside the consciousness research program. Together, they ask h
 
 The sovereign personal computing work connects those pillars at the scale of the person and beyond: silicon, hardware, operating system, identity, memory, agents, communication, authorship, governance, public space, archive, and society.
 
+The Mobile Edge Node extends the same authority model into motion: a vehicle-based node that captures field context, preserves local custody, and synchronizes only through explicit policy.
+
 ## Copyright And Use
 
 This repository is public for reading and citation, but it is not open-licensed by default. See [Copyright And Use](COPYRIGHT.md).
-
