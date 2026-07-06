@@ -27,6 +27,8 @@ This architecture expands the intelligence-infrastructure pillar beyond data cen
 
 The vehicle node is the bridge between embodied life and local AI infrastructure.
 
+It is also a relay. In the [Pony Express Infrastructure Model](architecture/pony-express-model.md), the vehicle node does not need global knowledge or centralized custody. It performs the local handoff well: capture, index, preserve custody, bind human meaning, prepare governed sync, and refuse transfer when policy fails.
+
 ## Governing Principles
 
 - Local-first custody
@@ -228,6 +230,14 @@ Micro centers anchor. Mobile nodes roam.
 The mobile node senses and captures field context. The fixed node provides heavier compute, regional storage, maintenance continuity, and civic infrastructure.
 
 Together, they form a distributed, human-owned network that does not collapse when cloud access, funding cycles, or centralized platforms fail.
+
+In Pony Express terms:
+
+- micro centers anchor
+- mobile nodes roam
+- home nodes remember
+- trusted bridges reach outward
+- Mesh carries governed state between relays
 
 ## Open Design Questions
 

@@ -18,6 +18,8 @@ It is built so authority originates with the human and is delegated outward.
 
 It must be powerful enough to run the whole loop locally and clear enough for ordinary people to use.
 
+It must also be able to participate as a relay: a bounded node in a larger human-owned infrastructure network that can authenticate, compute, remember, forward, refuse, and synchronize without surrendering local authority.
+
 ## What The Machine Must Understand
 
 The machine must understand:
@@ -51,6 +53,7 @@ It must be able to support:
 - local agent security layer, named Kestrel Gate for Fieldlight continuity
 - provenance and audit records
 - Mesh communication
+- relay handoff behavior
 - authorship and publication workflows
 - archive, export, recovery, and migration
 - normal daily computing

@@ -23,6 +23,7 @@ The program studies the systems that make advanced AI possible and governable:
 - local and personal AI infrastructure
 - local-first edge infrastructure
 - mobile and vehicle-based compute nodes
+- relay-based AI infrastructure
 
 ## Central Question
 
@@ -50,6 +51,7 @@ The objective is a new category of human-owned computing where authority origina
 - Local-first and edge AI systems
 - Vehicle-based sovereign compute
 - Fieldlight Mesh node architecture
+- Relay infrastructure and regional handoff models
 
 ## Architecture
 
@@ -57,6 +59,7 @@ The objective is a new category of human-owned computing where authority origina
 - [Fieldlight-Native Machine](architecture/fieldlight-native-machine.md)
 - [Agent Authority And Consent](architecture/agent-authority-and-consent.md)
 - [Trusted Bridge Delegation](architecture/trusted-bridge-delegation.md)
+- [Pony Express Infrastructure Model](architecture/pony-express-model.md)
 - [Development Roadmap](architecture/roadmap.md)
 - [Fieldlight Mobile Edge Node](MOBILE-EDGE-NODE.md)
 
@@ -67,6 +70,8 @@ This pillar sits beside the consciousness research program. Together, they ask h
 The sovereign personal computing work connects those pillars at the scale of the person and beyond: silicon, hardware, operating system, identity, memory, agents, communication, authorship, governance, public space, archive, and society.
 
 The trusted bridge model clarifies the role of hosted AI systems. ChatGPT, Codex, OpenAI-hosted models, local models, and safe-hosted collaborator models may all provide capability, but local identity, memory, consent, and authority remain the constitutional source of truth.
+
+The Pony Express model clarifies the topology. Fieldlight does not imagine intelligence infrastructure only as larger fortresses of compute. It also imagines modest, dependable relays: home nodes, mobile nodes, regional micro centers, and trusted bridges that authenticate, compute, remember, forward, refuse, and synchronize under local authority.
 
 The Mobile Edge Node extends the same authority model into motion: a vehicle-based node that captures field context, preserves local custody, and synchronizes only through explicit policy.
 

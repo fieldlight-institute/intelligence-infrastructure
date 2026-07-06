@@ -12,6 +12,8 @@ The laptop is the first embodiment, not the category.
 
 This includes hosted AI systems. Fieldlight does not require every useful intelligence capability to run locally. It requires that legitimacy remain local. Cloud systems may act as trusted bridges when they receive scoped, revocable authority from the local node.
 
+It also includes relay infrastructure. Fieldlight does not require every workload to route through a distant hyperscale center. Local machines, vehicle nodes, home nodes, regional micro centers, and trusted bridges can form a Pony Express-style relay network where governed state moves through bounded handoffs.
+
 ## Core Architecture
 
 The Fieldlight stack includes:
@@ -24,11 +26,12 @@ The Fieldlight stack includes:
 6. Sanctum
 7. Agents
 8. Mesh
-9. Authorship
-10. Governance
-11. Public space
-12. Archive
-13. Society
+9. Relay infrastructure
+10. Authorship
+11. Governance
+12. Public space
+13. Archive
+14. Society
 
 The stack is unified by one authority model.
 
@@ -158,6 +161,19 @@ Architecture questions:
 - What requires relay infrastructure?
 - What can be delegated across nodes?
 - How are presence, collaboration, refusal, revocation, and trace handled?
+
+### Relay Infrastructure
+
+Relay infrastructure is the topology of bounded handoffs.
+
+Architecture questions:
+
+- Which nodes act as relays?
+- What local work does each relay perform?
+- What governed state travels with each handoff?
+- What may be computed locally, forwarded, refused, or queued?
+- How does the route survive relay failure or replacement?
+- How do mobile nodes, home nodes, regional micro centers, and trusted bridges cooperate without centralizing authority?
 
 ### Authorship
 

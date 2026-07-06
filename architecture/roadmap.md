@@ -21,6 +21,7 @@ Core outputs:
 - Fieldlight, Sanctum, Mesh, and Astra roles
 - authority-origin model
 - trusted bridge delegation model
+- Pony Express relay infrastructure model
 - commercial embodiment requirements
 
 Key question:
@@ -37,6 +38,7 @@ Requirement areas:
 - Sanctum continuity, memory, and agency
 - agent execution and delegation
 - hosted AI as scoped delegate rather than authority
+- relay handoff requirements for home, mobile, regional, and hosted nodes
 - local model inference envelope
 - Mesh communication
 - authorship and provenance
@@ -63,10 +65,12 @@ Architecture areas:
 - Sanctum memory substrate
 - agent authority broker
 - trusted bridge grant format
+- Pony Express relay topology and handoff rules
 - local agent security layer, named Kestrel Gate for Fieldlight continuity
 - consent and explanation interface
 - provenance and audit log
 - Mesh protocol layer
+- mobile, home, regional, and trusted bridge relay behavior
 - publication and archive surfaces
 - recovery and migration
 
@@ -142,6 +146,7 @@ Extend from personal machine to public and institutional systems.
 Areas:
 
 - Mesh governance
+- relay infrastructure governance
 - civic and public-space protocols
 - institutional delegation
 - public authorship and citation systems

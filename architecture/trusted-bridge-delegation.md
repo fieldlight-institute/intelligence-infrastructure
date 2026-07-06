@@ -189,6 +189,8 @@ This note does not replace Sanctum, Consent Gate, Kestrel Gate, or Mesh.
 
 It clarifies their relationship.
 
+It also pairs with the [Pony Express Infrastructure Model](pony-express-model.md): trusted bridge delegation defines who may act outward on behalf of local authority, while the Pony Express model defines how governed state can move through a distributed relay network without requiring central ownership.
+
 ### Sanctum
 
 Sanctum is the local authority and continuity layer.
@@ -212,6 +214,12 @@ It is the preflight and audit layer for scripts, agents, tool use, network actio
 Mesh carries delegated action across nodes.
 
 It should transport not only messages, but the authority state attached to those messages.
+
+### Relay Infrastructure
+
+Relay infrastructure provides the topology for trusted movement.
+
+Home nodes, mobile nodes, regional micro centers, peer systems, and trusted bridges can each act as bounded relays when they authenticate identity, preserve consent state, forward only what policy allows, and return an audit trace.
 
 ## Conflict Check
 
@@ -238,4 +246,3 @@ Capability may be delegated outward.
 Every delegate must be able to answer:
 
 > Who authorized me, under what proof, for what scope, and what must I return to the local record?
-
