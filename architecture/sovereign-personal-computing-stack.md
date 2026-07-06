@@ -10,6 +10,8 @@ The goal is not to build a Linux distribution, a laptop company, or an AI assist
 
 The laptop is the first embodiment, not the category.
 
+This includes hosted AI systems. Fieldlight does not require every useful intelligence capability to run locally. It requires that legitimacy remain local. Cloud systems may act as trusted bridges when they receive scoped, revocable authority from the local node.
+
 ## Core Architecture
 
 The Fieldlight stack includes:
@@ -128,6 +130,22 @@ Architecture questions:
 - What can the agent read, write, remember, send, buy, publish, execute, or delete?
 - When does the grant expire?
 - What explanation does the agent owe?
+- Is this agent local, remote, hosted, peer-operated, or institutional?
+- What proof binds the delegate to the grant?
+
+### Trusted Bridges
+
+Trusted bridges are external capability providers acting under local authority.
+
+Architecture questions:
+
+- Which hosted systems may act on behalf of the person?
+- What memory or context may be exposed to them?
+- What tools may they use?
+- What must remain local?
+- What proof verifies the delegate identity?
+- How is the grant revoked?
+- What audit trace returns to Sanctum?
 
 ### Mesh
 
@@ -218,4 +236,3 @@ The system must distinguish:
 - archived
 - inherited
 - revoked
-

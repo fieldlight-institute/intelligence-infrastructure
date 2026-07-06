@@ -56,6 +56,7 @@ The objective is a new category of human-owned computing where authority origina
 - [Sovereign Personal Computing Stack](architecture/sovereign-personal-computing-stack.md)
 - [Fieldlight-Native Machine](architecture/fieldlight-native-machine.md)
 - [Agent Authority And Consent](architecture/agent-authority-and-consent.md)
+- [Trusted Bridge Delegation](architecture/trusted-bridge-delegation.md)
 - [Development Roadmap](architecture/roadmap.md)
 - [Fieldlight Mobile Edge Node](MOBILE-EDGE-NODE.md)
 
@@ -64,6 +65,8 @@ The objective is a new category of human-owned computing where authority origina
 This pillar sits beside the consciousness research program. Together, they ask how AI systems reshape both the material world that supports intelligence and the human world transformed by it.
 
 The sovereign personal computing work connects those pillars at the scale of the person and beyond: silicon, hardware, operating system, identity, memory, agents, communication, authorship, governance, public space, archive, and society.
+
+The trusted bridge model clarifies the role of hosted AI systems. ChatGPT, Codex, OpenAI-hosted models, local models, and safe-hosted collaborator models may all provide capability, but local identity, memory, consent, and authority remain the constitutional source of truth.
 
 The Mobile Edge Node extends the same authority model into motion: a vehicle-based node that captures field context, preserves local custody, and synchronizes only through explicit policy.
 

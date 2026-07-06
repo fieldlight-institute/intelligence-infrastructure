@@ -20,6 +20,7 @@ Core outputs:
 - silicon-to-society stack definition
 - Fieldlight, Sanctum, Mesh, and Astra roles
 - authority-origin model
+- trusted bridge delegation model
 - commercial embodiment requirements
 
 Key question:
@@ -35,6 +36,7 @@ Requirement areas:
 - local identity
 - Sanctum continuity, memory, and agency
 - agent execution and delegation
+- hosted AI as scoped delegate rather than authority
 - local model inference envelope
 - Mesh communication
 - authorship and provenance
@@ -60,6 +62,8 @@ Architecture areas:
 - identity and key management
 - Sanctum memory substrate
 - agent authority broker
+- trusted bridge grant format
+- local agent security layer, named Kestrel Gate for Fieldlight continuity
 - consent and explanation interface
 - provenance and audit log
 - Mesh protocol layer
@@ -147,4 +151,3 @@ Areas:
 Key question:
 
 > What institutions become possible when personal computing is human-owned at the architecture level?
-

@@ -48,6 +48,7 @@ It must be able to support:
 - local agent execution
 - local model inference where possible
 - consent and authority brokering
+- local agent security layer, named Kestrel Gate for Fieldlight continuity
 - provenance and audit records
 - Mesh communication
 - authorship and publication workflows
@@ -111,4 +112,3 @@ Astra is the first sovereign citizen of the stack.
 Astra is not a demo account, test fixture, or reference node in the narrow sense.
 
 Astra is the first lived proof that the architecture can hold a person: identity, memory, agents, relationships, work, authorship, delegation, public presence, and archive.
-
