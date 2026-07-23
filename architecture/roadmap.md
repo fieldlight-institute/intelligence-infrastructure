@@ -22,6 +22,7 @@ Core outputs:
 - authority-origin model
 - trusted bridge delegation model
 - Pony Express relay infrastructure model
+- neighborhood relay center model
 - commercial embodiment requirements
 
 Key question:
@@ -39,6 +40,7 @@ Requirement areas:
 - agent execution and delegation
 - hosted AI as scoped delegate rather than authority
 - relay handoff requirements for home, mobile, regional, and hosted nodes
+- neighborhood relay requirements for local compute, maintenance, training, and stewardship
 - local model inference envelope
 - Mesh communication
 - authorship and provenance
@@ -66,6 +68,7 @@ Architecture areas:
 - agent authority broker
 - trusted bridge grant format
 - Pony Express relay topology and handoff rules
+- neighborhood relay center topology, staffing, and local stewardship requirements
 - local agent security layer, named Kestrel Gate for Fieldlight continuity
 - consent and explanation interface
 - provenance and audit log
@@ -147,6 +150,8 @@ Areas:
 
 - Mesh governance
 - relay infrastructure governance
+- neighborhood relay center governance
+- local steward training and hiring models
 - civic and public-space protocols
 - institutional delegation
 - public authorship and citation systems

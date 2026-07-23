@@ -12,7 +12,7 @@ The laptop is the first embodiment, not the category.
 
 This includes hosted AI systems. Fieldlight does not require every useful intelligence capability to run locally. It requires that legitimacy remain local. Cloud systems may act as trusted bridges when they receive scoped, revocable authority from the local node.
 
-It also includes relay infrastructure. Fieldlight does not require every workload to route through a distant hyperscale center. Local machines, vehicle nodes, home nodes, regional micro centers, and trusted bridges can form a Pony Express-style relay network where governed state moves through bounded handoffs.
+It also includes relay infrastructure. Fieldlight does not require every workload to route through a distant hyperscale center. Local machines, vehicle nodes, home nodes, neighborhood relay centers, regional micro centers, and trusted bridges can form a Pony Express-style relay network where governed state moves through bounded handoffs.
 
 ## Core Architecture
 
@@ -174,6 +174,19 @@ Architecture questions:
 - What may be computed locally, forwarded, refused, or queued?
 - How does the route survive relay failure or replacement?
 - How do mobile nodes, home nodes, regional micro centers, and trusted bridges cooperate without centralizing authority?
+- How can ordinary commercial spaces become teachable, maintainable relay centers rather than platform outposts?
+- What staffing and stewardship model makes local intelligence usable by normal people?
+
+### Mainstream Sovereignty
+
+Sovereignty should not require secret-specialist culture.
+
+Architecture questions:
+
+- Which open-source tools are good, common, integrated, and maintainable enough for ordinary use?
+- How does the system preserve local authority while still using popular tools where they serve people well?
+- What does "right to local intelligence" mean as a practical computing capability?
+- How does the system make learning, repair, maintenance, and model access available to people hired for character and hunger rather than credentials alone?
 
 ### Authorship
 

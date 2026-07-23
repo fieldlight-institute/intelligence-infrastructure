@@ -24,6 +24,8 @@ The program studies the systems that make advanced AI possible and governable:
 - local-first edge infrastructure
 - mobile and vehicle-based compute nodes
 - relay-based AI infrastructure
+- neighborhood relay centers
+- local intelligence access
 
 ## Central Question
 
@@ -52,6 +54,8 @@ The objective is a new category of human-owned computing where authority origina
 - Vehicle-based sovereign compute
 - Fieldlight Mesh node architecture
 - Relay infrastructure and regional handoff models
+- Neighborhood relay centers and local stewardship models
+- Mainstream open-source access for ordinary users
 
 ## Architecture
 
@@ -60,6 +64,7 @@ The objective is a new category of human-owned computing where authority origina
 - [Agent Authority And Consent](architecture/agent-authority-and-consent.md)
 - [Trusted Bridge Delegation](architecture/trusted-bridge-delegation.md)
 - [Pony Express Infrastructure Model](architecture/pony-express-model.md)
+- [Neighborhood Relay Centers](architecture/neighborhood-relay-centers.md)
 - [Development Roadmap](architecture/roadmap.md)
 - [Fieldlight Mobile Edge Node](MOBILE-EDGE-NODE.md)
 
@@ -72,6 +77,8 @@ The sovereign personal computing work connects those pillars at the scale of the
 The trusted bridge model clarifies the role of hosted AI systems. ChatGPT, Codex, OpenAI-hosted models, local models, and safe-hosted collaborator models may all provide capability, but local identity, memory, consent, and authority remain the constitutional source of truth.
 
 The Pony Express model clarifies the topology. Fieldlight does not imagine intelligence infrastructure only as larger fortresses of compute. It also imagines modest, dependable relays: home nodes, mobile nodes, regional micro centers, and trusted bridges that authenticate, compute, remember, forward, refuse, and synchronize under local authority.
+
+Neighborhood Relay Centers define the local fixed relay class: small repurposed commercial spaces led by trained local stewards, built for mainstream sovereignty rather than secret-specialist gatekeeping. If intelligence is becoming cheap, then access, maintenance, character, and trust become the scarce infrastructure.
 
 The Mobile Edge Node extends the same authority model into motion: a vehicle-based node that captures field context, preserves local custody, and synchronizes only through explicit policy.
 

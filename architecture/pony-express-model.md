@@ -36,6 +36,7 @@ In Fieldlight terms:
 - local nodes establish authority
 - trusted bridges extend capability outward
 - mesh protocols carry verifiable state between relays
+- neighborhood stewards make the relay legible to ordinary people
 
 The result is not merely lower latency.
 
@@ -162,6 +163,24 @@ Home nodes remember.
 Trusted bridges reach outward.
 
 Together, they form a relay architecture for intelligence.
+
+## Relationship To Neighborhood Relay Centers
+
+[Neighborhood Relay Centers](neighborhood-relay-centers.md) are the smaller, more ordinary version of the fixed relay.
+
+They may live in repurposed commercial spaces: empty storefronts, former gas stations, small offices, unused church buildings, municipal rooms, or other spaces already embedded in the community.
+
+Their purpose is not to become mini-fortresses of compute.
+
+Their purpose is to make local intelligence access maintainable, teachable, and accountable.
+
+In this layer, the key asset is not only hardware.
+
+It is the local steward: a real person hired for character, hunger, care, and follow-through, then trained to maintain the relay and help the community use it.
+
+This makes the relay model economic as well as technical.
+
+More smaller relays can reduce dependence on intense land investment for a few massive centers while creating local technical capability where people already live.
 
 ## Ecological Analogy
 
