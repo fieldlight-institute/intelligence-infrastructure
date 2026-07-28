@@ -31,6 +31,17 @@ The program studies the systems that make advanced AI possible and governable:
 
 What forms of architecture, governance, siting, investment, and public accountability are required when intelligence becomes infrastructure?
 
+## Architecture Map
+
+<picture>
+  <source media="(max-width: 680px)" srcset="assets/intelligence-infrastructure-map/fieldlight-intelligence-infrastructure-mobile.svg">
+  <img src="assets/intelligence-infrastructure-map/fieldlight-intelligence-infrastructure.svg" alt="Fieldlight intelligence infrastructure begins with human and local authority, moves through household and mobile nodes into a neighborhood intelligence utility, federates through a regional anchor, and reaches external cloud capability only through a trusted bridge. Results and an audit trace return to the local record." width="1600" height="900">
+</picture>
+
+Authority and memory remain local. Scoped capability moves outward through governed delegation and returns with an audit trace.
+
+The authored source for this architecture is Anni McHenry's essay [The Right to Local Intelligence](https://github.com/annimch04/public-writing/blob/main/edge-infrastructure-and-safety/the-right-to-local-intelligence.md).
+
 ## Key Output Priority
 
 Sovereign personal computing is a key Fieldlight Institute output priority.

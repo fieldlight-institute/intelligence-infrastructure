@@ -42,6 +42,13 @@ The result is not merely lower latency.
 
 It is a fundamentally different distribution of trust.
 
+<picture>
+  <source media="(max-width: 680px)" srcset="../assets/intelligence-infrastructure-map/fieldlight-intelligence-infrastructure-mobile.svg">
+  <img src="../assets/intelligence-infrastructure-map/fieldlight-intelligence-infrastructure.svg" alt="Fieldlight intelligence infrastructure begins with human and local authority, moves through household and mobile nodes into a neighborhood intelligence utility, federates through a regional anchor, and reaches external cloud capability only through a trusted bridge. Results and an audit trace return to the local record." width="1600" height="900">
+</picture>
+
+The topology originates in Anni McHenry's essay [The Right to Local Intelligence](https://github.com/annimch04/public-writing/blob/main/edge-infrastructure-and-safety/the-right-to-local-intelligence.md). The Institute develops its relay, stewardship, delegation, and implementation layers.
+
 ## Relay Pattern
 
 A Fieldlight relay is a small, trusted site that performs only the work required of that location.
