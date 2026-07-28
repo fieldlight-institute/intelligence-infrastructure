@@ -42,6 +42,11 @@ Authority and memory remain local. Scoped capability moves outward through gover
 
 The authored source for this architecture is Anni McHenry's essay [The Right to Local Intelligence](https://github.com/annimch04/public-writing/blob/main/edge-infrastructure-and-safety/the-right-to-local-intelligence.md).
 
+## Publication Register
+
+1. [The Right to Local Intelligence](https://fieldlight.com/writing/the-right-to-local-intelligence/) — the constitutional case for local intelligence infrastructure.
+2. [Local Authority, External Capability: Why Local AI Doesn't Mean Anti-Cloud](https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/) — the division of labor between human-owned authority and external intelligence.
+
 ## Key Output Priority
 
 Sovereign personal computing is a key Fieldlight Institute output priority.

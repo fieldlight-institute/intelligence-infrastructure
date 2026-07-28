@@ -11,6 +11,8 @@ Cloud systems may provide capability.
 
 They do not become the constitutional center.
 
+This architecture is developed publicly in Fieldlight Institute Publication No. 02, [Local Authority, External Capability: Why Local AI Doesn't Mean Anti-Cloud](https://fieldlight.com/writing/local-authority-external-capability-why-local-ai-doesnt-mean-anti-cloud/).
+
 ## Core Claim
 
 The important question is not only where intelligence runs.
